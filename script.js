@@ -12,17 +12,16 @@ document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 // Rules and Content Data
 // Rules and Content Data
 const rulesData = {
-    'ADZAP': ["Each team shall consist of a maximum of two (2) members.",
+    'ADZAP': ["Each team shall consist of a maximum of two (2) members(Individual Registration is MUST).",
               "Two to three topics will be provided on the spot to each team.",
               "Participants are required to design and advertise a product based on the given topic.",
               "A total of 30 minutes will be allotted for poster creation and 10 minutes will be provided for presentation and advertisement of the created product."
                ,"The use of AI-generated images or graphics is strictly prohibited.",
                     "Participants must create their poster only on the platform provided by the organizers.",
-                    "The presentation must be delivered exclusively in English.",
                     "Posters and presentations must not include political, religious, or controversial content.",
                     "The poster creation process must begin from scratch; the use of pre-designed templates, previously created content, or stored materials is not permitted."],
     
-                    'PAPER PRISM': ["Each team must consist of 2 members only.", "The PowerPoint presentation should contain exactly 10 slides.", "The presentation duration will be 5 minutes per team.","An additional 2 minutes will be allotted for queries and discussion.","The PPT must be submitted on or before 23.02.2026.","A confirmation email will be sent to the participants who are shortlisted/selected."],
+                    'PAPER PRISM': ["Each team must consist of 2 members only(Individual Registration is MUST).", "The PowerPoint presentation should contain exactly 10 slides.", "The presentation duration will be 5 minutes per team.","An additional 2 minutes will be allotted for queries and discussion.","The PPT must be submitted on or before 23.02.2026.","A confirmation email will be sent to the participants who are shortlisted/selected."],
     
                     'INNOVIZ': ["Participants can only participate individually.",
                 "The quiz consists of two exciting rounds, centred on Computer Science and Engineering concepts.",
@@ -41,7 +40,7 @@ const rulesData = {
                   "The competition is conducted in two stages of debugging.",
                   "Winners will be announced during the valedictory ceremony"
 ],
-    'CYBERNOVA': ["Abstracts must be submitted on or before 23.02.2026.",
+    'CYBERNOVA': ["Abstracts must be submitted on or before 23.02.2026.(Individual Registration is MUST)",
                 "Participation   is allowed individually or in teams of a maximum of two members.",
                 "Projects may be based on hardware or software models.",
                 "Each participant/team will be given 5 minutes for presentation.",
